@@ -1,0 +1,26 @@
+.button-container {
+  display: flex;
+  flex-direction: column; /* Кнопки располагаются друг под другом */
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 200px); /* Расположение ниже шапки */
+  gap: 20px; /* Расстояние между кнопками */
+}
+
+.center-button {
+  background-color: #000000; /* Чёрный цвет */
+  color: #ffffff; /* Белый текст */
+  border: none;
+  border-radius: 5px;
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.center-button:hover {
+  transform: scale(1.1); /* Увеличение на 10% при наведении */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Более заметная тень */
+}

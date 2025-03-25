@@ -1,0 +1,61 @@
+.savings-box {
+  background-color: #ffffff; /* Белый фон */
+  border-radius: 20px; /* Скруглённые углы */
+  padding: 25px;
+  width: calc(95% - 40px); /* Автоматическая ширина с отступами по 20px */
+  max-width: 420px; /* Максимальная ширина, чтобы бокс не становился слишком большим */
+  margin: 30px auto; /* Центрируем по горизонтали */
+  position: relative; /* Для поднятия */
+  top: -50px; /* Поднимаем бокс выше */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Лёгкая тень */
+  text-align: center;
+}
+
+
+
+.savings-title {
+  font-size: 1.8rem; /* Заголовок */
+  font-weight: bold;
+  color: #27ae60; /* Зелёный цвет */
+  margin-bottom: 10px;
+}
+
+.savings-subtitle {
+  font-size: 1rem; /* Подзаголовок */
+  color: #555555; /* Серый цвет */
+  margin-bottom: 20px;
+}
+
+.savings-icon {
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  background-color: #e0e0e0; /* Фон прогресс-бара */
+  border-radius: 10px;
+  height: 20px;
+  overflow: hidden;
+  margin: 15px 0;
+}
+
+.progress-fill {
+  background-color: #27ae60; /* Заполнение прогресс-бара */
+  height: 100%;
+  border-radius: 10px 0 0 10px; /* Скругление только с левой стороны */
+  transition: width 0.5s ease-in-out; /* Анимация заполнения */
+}
+
+.progress-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.progress-current {
+  color: #27ae60; /* Зелёный цвет */
+}
+
+.progress-goal {
+  color: #000000; /* Чёрный цвет */
+}
