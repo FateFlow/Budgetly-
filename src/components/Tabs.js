@@ -1,14 +1,9 @@
 import React from 'react';
+import './Tabs.css';
 
 const Tabs = () => {
     return (
-        <nav style={{
-            display: 'flex',
-            justifyContent: 'space-around',
-            backgroundColor: '#f0f0f0',
-            padding: '10px 0',
-            marginTop: '10px'
-        }}>
+        <div className="box">
             <button style={{
                 border: 'none',
                 backgroundColor: '#ffffff',
@@ -39,7 +34,7 @@ const Tabs = () => {
                 fontWeight: 'bold',
                 color: '#4CAF50'
             }}>History</button>
-        </nav>
+        </div>
     );
 };
 

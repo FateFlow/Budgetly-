@@ -2,13 +2,14 @@
   background-color: #ffffff; /* Белый фон */
   border-radius: 20px; /* Скруглённые углы */
   padding: 25px;
-  width: calc(95% - 40px); /* Автоматическая ширина с отступами по 20px */
-  max-width: 420px; /* Максимальная ширина, чтобы бокс не становился слишком большим */
-  margin: 30px auto; /* Центрируем по горизонтали */
+  max-width: 100vw; /* Максимальная ширина, чтобы бокс не становился слишком большим */
+  margin: 20px auto; /* Центрируем по горизонтали */
   position: relative; /* Для поднятия */
-  top: -50px; /* Поднимаем бокс выше */
+  top: -50px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Лёгкая тень */
   text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 

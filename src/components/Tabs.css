@@ -1,0 +1,16 @@
+.box {
+    background-color: #ffffff; /* Белый фон */
+    border-radius: 20px; /* Скруглённые углы */
+    padding: 25px; /* Отступ внутри бокса */
+    max-width: 100vw; /* Ограничение на максимальную ширину */
+    margin: 20px auto; /* Центрирование по горизонтали */
+    position: relative; /* Для управления вертикальным смещением */
+    top: -50px; /* Поднятие бокса выше */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Добавляем тень */
+    text-align: center; /* Центрирование текста и вложенных элементов */
+    display: flex; /* Flexbox для кнопок */
+    justify-content: space-around; /* Равномерное распределение кнопок */
+    align-items: center; /* Вертикальное выравнивание */
+    margin-left: 20px;
+    margin-right: 20px;
+}
